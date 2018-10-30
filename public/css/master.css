@@ -6,33 +6,30 @@ body {
 	padding-top:2rem;
 }
 
-.header h1 {
-	text-decoration: underline;
-}
-
 .sub {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 #survey {
 	font-size: 2rem;
 }
 
-.box{
+#generated{
 	font-size: 3rem;
-	font-family: Arial, Helvetica, sans-serif;
-	outline: rgb(225,225,225);
-	background: rgb(241,241,241);
 	height:150px;
-	border-radius: 10px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	margin-bottom: 3rem;
 }
 
-#error {
-	display:none;
+.error {
+ 	transition: all 0.1s linear;
 	color:red;
 	text-decoration: underline;
+	opacity: 1;
+}
+
+.error.hidden {
+	opacity: 0;
 }

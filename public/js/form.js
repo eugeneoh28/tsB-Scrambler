@@ -4,9 +4,9 @@ $(document).ready (() => {
 		var lname = String($("#lastName").val()).toLowerCase().trim().replace(' ', '');
 
 		if (!fname || !lname) {
-			$("#error").show()
+			$(".error").toggleClass("hidden")
 			setTimeout(() => {
-				$("#error").hide();
+				$(".error").toggleClass("hidden");
 			}, 3000)
 		} else {
 			var cname = fname + lname;

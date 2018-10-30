@@ -2,20 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
-    <title>Test</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-=======
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>tsb Scrambler</title>
 
     <link rel="stylesheet" type="text/css" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
->>>>>>> 8d84c1661684993e0b733d4b3dc0e9d65e077a6b
     <link rel="stylesheet" type="text/css" href="/css/master.css">        
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/form.js"></script>
@@ -24,37 +19,28 @@
   <div class="container">
     <div class="header">
       <h1>tSB Survey Scrambler</h1>
-      <p class="sub">Please use this website to generate your code to enter into your pre-post survey. Enter your first/last name into the boxes below and hit submit. Afterwards, copy paste the code generated into your google form.</p>
+      <hr>
+      <p class="sub" >Please use this website to generate your code to enter into your pre-post survey. Enter your first/last name into the boxes below and hit submit. Afterwards, copy paste the code generated into your google form.</p>
     </div>
-    <p id="error">Make sure enter both your first and last name!</p>
-    <div class="form-group">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <label >First Name</label>
-          <input class="form-control" type="text" id="firstName">
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <label >Last Name</label>
-          <input class="form-control" type="text" id="lastName">
-        </div>
+    <p  class="error hidden">Make sure enter both your first and last name!</p>
+    <div class="row">
+      <div class="column">
+        <label >First Name</label>
+        <input class="u-full-width" type="text" id="firstName">
       </div>
-      <br>
-      <button id="submit" class="btn btn-large btn-primary">Submit</button>
     </div>
-    <h3>Survey Code</h3>
-    <p class="sub">Code will be generated below</p>
-     <div class="box">
-     <h5 id="generated"></h5> 
+    <div>
+      <div class="column">
+        <label >Last Name</label>
+        <input class="u-full-width" type="text" id="lastName">
+      </div>
     </div>
-<<<<<<< HEAD
-=======
     <button id="submit" class="button-primary">Submit</button>
-    <h5>Survey Code<br>
-    </h5>
-    <p id="sub">(Code will be generated below in box)</p>
+    <hr>
+    <h5>Survey Code</h5>
+    <p class="sub">(Code will be generated below in box)</p>
       <code id="generated">
       </code>
->>>>>>> 8d84c1661684993e0b733d4b3dc0e9d65e077a6b
     </label>
   </div>
 
