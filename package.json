@@ -1,0 +1,24 @@
+{
+  "name": "scrambler",
+  "version": "1.0.0",
+  "description": "tsb survey scrambler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeneoh28/tsB-Scrambler.git"
+  },
+  "author": "Eugene Oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugeneoh28/tsB-Scrambler/issues"
+  },
+  "homepage": "https://github.com/eugeneoh28/tsB-Scrambler#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

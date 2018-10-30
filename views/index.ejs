@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="/css/master.css">        
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/form.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div class="header">
+      <h1>tSB Survey Scrambler</h1>
+      <p>Please use this website to generate your code to enter into your pre-post survey. Enter your first/last name into the boxes below and hit submit. Afterwards, copy paste the code generated into your google form.</p>
+    </div>
+    <p id="error">Make sure enter both your first and last name!</p>
+    <div class="row">
+      <div class="column">
+        <label >First Name</label>
+        <input class="u-full-width" type="text" id="firstName">
+      </div>
+    </div>
+    <div>
+      <div class="column">
+        <label >Last Name</label>
+        <input class="u-full-width" type="text" id="lastName">
+      </div>
+    </div>
+    <button id="submit" class="button-primary">Submit</button>
+    <h5>Survey Code<br>
+      <span id="survey">(Code will be generated below in box)</span>
+    </h5>
+      <code id="generated">
+      </code>
+    </label>
+  </div>
+
+  </body>
+</html>
