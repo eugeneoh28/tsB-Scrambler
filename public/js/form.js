@@ -7,7 +7,7 @@ $(document).ready (() => {
 			$(".error").toggleClass("hidden")
 			setTimeout(() => {
 				$(".error").toggleClass("hidden");
-			}, 3000)
+			}, 5000)
 		} else {
 			var cname = fname + lname;
 			var final = "";
